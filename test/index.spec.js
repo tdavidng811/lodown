@@ -26,3 +26,25 @@ describe('lodown', function() {
         });
     });
 });
+describe('lodown', function() {
+    describe('identity', function() {
+        it('should return the data value passed on to the function', function() {
+            expect('hello').to.eql('hello');
+        });
+    });
+});
+
+// describe('lodown', function() {
+//     describe('typeOf', function() {
+//         it('should return the data type in a string', function() {
+//             expect(("a"), "string", "Should handle strings.");
+//             expect((10), "number", "Should handle numbers.");
+//             expect(([1,3]), "array", "Should handle arrays.");
+//             expect(({a: "one"}), "object", "Should handle objects.");
+//             expect((false), "boolean", "Should handle booleans.");
+//             expect((undefined), "undefined", "Should handle undefined.");
+//             expect((null), "null", "Should handle null.");
+//             expect((function(){}), "function", "Should handle functions.");
+//         })
+//     })
+// })
